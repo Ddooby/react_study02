@@ -22,7 +22,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Greeting from './Greeting';
 
+import AwesomeGreegting from './AwesomeGreeting';
+
 ReactDOM.render(
-  <Greeting></Greeting>, 
+  //[1강, component]
+  //<Greeting></Greeting>, 
+
+  //[2강, props]
+  <>
+  <AwesomeGreegting userName="Ddooby"/>
+  <AwesomeGreegting userName="정철환"/>
+  <AwesomeGreegting userName="Jeong Cheol Hwan"/>
+  </>,
   document.getElementById('root')
 )
